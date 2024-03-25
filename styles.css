@@ -10,7 +10,6 @@
 @font-face {
     font-family: 'Poppins';
     src: url('fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
-   
 }
 
 * {
@@ -26,14 +25,11 @@ html {
 body{
     width: 100vw;
     height: 100vh;
- 
-    
     background: linear-gradient(to bottom right, #ffffff40, #e90840e4),
                 url(images/pink-heart-Background.png);
     background-size: cover;
     background-repeat: no-repeat;
-   
-    
+    overflow: hidden;
     /* background: linear-gradient(to bottom right, #aa0c10, #d03d00, #f97e66); */
     /* background: linear-gradient(to bottom right, #6c5b7b, #c06c84, #f67280, #f8b195, #c06c84); */
 }
@@ -57,7 +53,11 @@ body{
     text-align: center;
 
     border-radius: 33px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .main-container input[type="text"],
