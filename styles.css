@@ -174,9 +174,14 @@ input[type="text"]:focus {
 
 
 
+/* mobile device */
 
-
-
+@media only screen and (max-width: 600px) {
+    .main-container {
+        width: 90vw; /* 90% of the viewport width on smaller screens */
+        height: calc(90vw * 2); /* Height is calculated to maintain 2:1 aspect ratio */
+    }
+}
 
 
 
